@@ -1,0 +1,185 @@
+.main {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.addTask {
+    display: flex;
+    flex-direction: column;
+}
+
+.boldText {
+    font-family: 'SF bold';
+    font-size: 24px;
+    color: #333333;
+}
+
+.instruction {
+    margin-top: 13px;
+    padding-left: 18px;
+    max-width: 508px;
+}
+
+.instruction>li {
+    line-height: 33px;
+}
+
+.instruction>li::marker {
+    color: #B7280F;
+}
+
+.formAddTask {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formAddTask>input {
+    resize: none;
+    border: 0;
+    background-color: #F4F4F4;
+    width: 370px;
+    height: 55px;
+    padding-left: 15px;
+    font-size: 16px;
+    color: #333333;
+    font-family: 'SF light';
+}
+
+.formAddTask>input::placeholder {
+    color: #999999;
+    font-size: 16px;
+}
+
+.formAddTask>input:focus-visible {
+    outline: none;
+}
+
+.btnAdd {
+    background-color: #A8B64F;
+    width: 173px;
+    height: 55px;
+    border: 0;
+    color: white;
+    margin-top: 25px;
+    font-family: 'SF medium';
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.btnAdd:enabled:hover {
+    background-color: #899441;
+    cursor: pointer;
+}
+
+.btnAdd:disabled {
+    background-color: #F4F4F4;
+    color: #C4C4C4;
+    font-family: 'SF medium';
+    font-size: 16px;
+    border: 2px solid #C4C4C4;
+}
+
+.timer {
+    max-width: 733px;
+    width: 100%;
+    height: 507px;
+    background-color: #F4F4F4;
+}
+
+.headerTimer {
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+}
+
+.mainTimer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 452px;
+}
+
+.taskTimer {
+    margin-left: 40px;
+}
+
+.countPomidor {
+    margin-right: 40px;
+}
+
+.headerTimer>.taskTimer {
+    font-family: 'SF bold';
+    color: white;
+}
+
+.headerTimer>.countPomidor {
+    color: white;
+}
+
+.time {
+    font-size: 150px;
+    font-family: 'SF thin';
+    color: #333333;
+}
+
+.task {
+    color: rgba(153, 153, 153, 1);
+}
+
+.taskName {
+    color: rgba(51, 51, 51, 1);
+}
+
+.btnsStartStop {
+    margin-top: 32px;
+}
+
+.btnStart {
+    background-color: #A8B64F;
+    width: 145px;
+    height: 55px;
+    cursor: pointer;
+    border: 0;
+    color: white;
+    font-family: 'SF medium';
+    font-size: 16px;
+    margin-right: 25px;
+}
+
+.btnStart:hover {
+    background-color: #899441;
+}
+
+.btnStop:disabled {
+    background-color: #F4F4F4;
+    width: 145px;
+    height: 55px;
+    border: 0;
+    color: #C4C4C4;
+    font-family: 'SF medium';
+    font-size: 16px;
+    border: 2px solid #C4C4C4;
+}
+
+.btnStop:enabled {
+    width: 145px;
+    height: 55px;
+    cursor: pointer;
+    border: 0;
+    color: #DC3E22;
+    font-family: 'SF medium';
+    font-size: 16px;
+    border: 2px solid #DC3E22;
+}
+
+.btnStop:enabled:hover {
+    color: white;
+    background-color: #DC3E22;
+}

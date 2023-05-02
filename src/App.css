@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'SF regular';
+    src: url('./fonts/SFUIDisplay-Regular.woff') format('woff'),
+        url('./fonts/SFUIDisplay-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'SF bold';
+    src: url('./fonts/SFUIDisplay-Bold.woff') format('woff'),
+        url('./fonts/SFUIDisplay-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'SF light';
+    src: url('./fonts/SFUIDisplay-Light.woff') format('woff'),
+        url('./fonts/SFUIDisplay-Light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'SF medium';
+    src: url('./fonts/SFUIDisplay-Medium.woff') format('woff'),
+        url('./fonts/SFUIDisplay-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'SF thin';
+    src: url('./fonts/SFUIDisplay-Thin.woff') format('woff'),
+        url('./fonts/SFUIDisplay-Thin.woff2') format('woff2');
+}
+
+* {
+    font-family: 'SF regular';
+    box-sizing: border-box;
+    text-decoration: none;
+    
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+}

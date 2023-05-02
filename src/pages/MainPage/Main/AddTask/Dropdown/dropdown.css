@@ -1,0 +1,68 @@
+.dropdown {
+    position: absolute;
+    background-image: url('/src/svg/dropdown.svg');
+    background-repeat: no-repeat;
+    width: 165px;
+    height: 153px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.dropdownList {
+    list-style: none;
+    margin-top: 5px;
+}
+
+.dropdownList>li>button {
+    color: #999999;
+    border: 0;
+    background-color: #fff;
+    cursor: pointer;
+    width: 162px;
+    height: 36px;
+    font-size: 16px;
+}
+
+.dropdownList>li>button:hover {
+    background-color: #F4F4F4;
+}
+
+.btnDropdown {
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: 12% center;
+}
+
+.btnIncrement {
+    background-image: url('../../../../../svg/plus.svg');
+}
+
+.btnIncrement:disabled {
+    background-image: url('../../../../../svg/plusDisabled.svg');
+    cursor: default;
+}
+
+.btnDecrement {
+    background-image: url('../../../../../svg/minus.svg');
+    width: 157px;
+    padding-left: 5px;
+}
+
+.btnDecrement:disabled {
+    background-image: url('../../../../../svg/minusDisabled.svg');
+    cursor: default;
+}
+
+.btnEdit {
+    background-image: url('../../../../../svg/edit.svg');
+    padding-left: 33px;
+    width: 129px;
+}
+
+.btnDeleteItem {
+    background-image: url('../../../../../svg/delete.svg');
+    padding-right: 18px;
+    width: 144px;
+}

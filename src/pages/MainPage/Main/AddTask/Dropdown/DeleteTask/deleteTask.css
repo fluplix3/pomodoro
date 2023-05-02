@@ -1,0 +1,66 @@
+.deleteBackground {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formDelete {
+    background-color: #FFFFFF;
+    width: 350px;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.blockDelete>p {
+    font-size: 24px;
+}
+
+.blockDelete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -15px;
+}
+
+.btnDelete {
+    background-color: #DC3E22;
+    width: 162px;
+    height: 55px;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.btnCancel {
+    margin-top: 10px;
+    border: 0;
+    color: #333333;
+    font-size: 16px;
+    cursor: pointer;
+    border-bottom: 1px solid #333333;
+}
+
+.btnCross {
+    background-image: url('../../../../../../svg/cancel.svg');
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 17px;
+    border: 0;
+    cursor: pointer;
+    background-color: white;
+    align-self: flex-end;
+    margin-right: 17.39px;
+    margin-top: 17px;
+    z-index: 1;
+}

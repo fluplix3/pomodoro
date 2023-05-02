@@ -1,0 +1,45 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 63px rgba(0, 0, 0, 0.07);
+}
+
+.pomodoroSVG {
+    margin-right: 13px;
+}
+
+.mainLink {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: rgba(220, 62, 34, 1);
+    font-weight: 200px;
+}
+
+.mainLink:hover {
+    color: rgba(183, 40, 15, 1);
+}
+
+.statisticLink {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: rgba(220, 62, 34, 1);
+}
+
+.statisticLink:hover {
+    color: rgba(183, 40, 15, 1);
+}
+
+.statisticLink:hover .statisticSVG>path {
+    fill: rgba(183, 40, 15, 1);
+}
+
+.statisticSVG {
+    margin-right: 9px;
+}
